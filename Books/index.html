@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-------- title ----------->
+    <title>Online Book Shop || Web Designer Max</title>
+
+    <!-------- customer style link ----------->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!-------- font awesome cdn link --------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!------- swipper cdn link ------------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+
+</head>
+<body>
+
+    <!--------- header section start ------------>
+    <header class="header">
+        <div class="header_one">
+            <a href="" class="logo"><i class="fas fa-book"> Book Hub</i></a>
+
+            <form action="" class="search-form">
+                <input id="search-box" type="search" placeholder="search here...">
+                <label for="" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <!-- <a href="" class="fas fa-heart"></a> -->
+                <a href="" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <!----- navigation bar -------->
+        <div class="header_two">
+            <div class="navbar">
+                <a href="#home">Home</a>
+                <a href="#featured">Featured</a>
+                <a href="#arrivals">Arrivals</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#blogs">Blogs</a>
+            </div>
+        </div>
+    
+    </header>
+
+    <!-------- bottom navbar start ----------->
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#blogs" class="fas fa-app-store"></a>
+    </div>
+
+     <!-------- login form start ----------->
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>sign in</h3>
+            <span>email</span>
+            <input type="email" class="box" placeholder="enter your email">
+            <span>password</span>
+            <input type="password" class="box" placeholder="enter your password">
+
+            <div class="check-box">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+
+            <input type="submit" value="sign in" class="btn">
+            <p>forgot password? <a href="">click here</a></p>
+            <p>dont't have an account ? <a href="">create one</a></p>
+            <p></p>
+        </form>
+    </div>
+
+    <!-------- home section start ----------->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>upto 55% offers</h3>
+                <p>"Explore the realms of knowledge, where every page whispers a story – Your Gateway to Infinite Worlds at the Library."</p>
+                <a href="" class="btn">shop now</a>
+            </div>
+
+            <div class="swiper books-list">
+                <div class="swiper-wrapper">
+                    <a href="" class="swiper-slide"><img src="./images/book-1.jpg" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./images/book-2.jpg" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./images/book-3.jpg" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./images/book-4.jpg" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./images/book-5.jpg" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./images/book-6.jpg" alt=""></a>
+                </div>
+
+                <img class="stand" src="./images/stand-1.png" alt="">
+            </div>
+        </div>
+    </section>
+      
+
+     <!-------- home section ends  ----------->
+
+    <!-- ------ icons section start  ---------
+
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="content">
+                <h3>over payment</h3>
+                <p>over payment $100</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>over payment</h3>
+                <p>over payment $100</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>over payment</h3>
+                <p>over payment $100</p>
+            </div>
+        </div>
+
+    </section> -->
+
+    <!-------- featured section start  ----------->
+
+    <section class="featured" id="featured">
+        <div class="heading"><span>Featured books</span></div>
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/book-1.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Tareehk-e-Islam</h3>
+                        <div class="price">Rs 2000 <span>Rs 2500</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/book-2.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Adam se Muhammad tak</h3>
+                        <div class="price"> Rs 1000 <span> Rs 1500</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/book-3.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>The History of Islam</h3>
+                        <div class="price"> Rs 3000 <span> Rs 3200</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/book-4.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>The Forgotten Queens of Islam</h3>
+                        <div class="price"> Rs 1200 <span>Rs 1500</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/book-5.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Peer e Kamil</h3>
+                        <div class="price">Rs 1800 <span>Rs 2000</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/book-6.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Aab-e-Hayat</h3>
+                        <div class="price">Rs 1500 <span> Rs 1800</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/book-7.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Jannat kay Pattey</h3>
+                        <div class="price">Rs 2100 <span> Rs 2400</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/book-8.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Namal</h3>
+                        <div class="price">Rs 2100 <span>Rs 2500</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/book-9.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Tafseer Quran</h3>
+                        <div class="price">RS 3000<span>Rs 3200 </span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/book-10.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Tafseer Quran</h3>
+                        <div class="price">Rs 2800 <span> Rs 3000</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/book-11.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>The Meaning of The Noble Quran</h3>
+                        <div class="price">Rs 3200 <span> Rs 3400</span></div>
+                        <a href="" class="btn">add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+     <!-------- news letter section start  ----------->
+
+    <section class="newletter">
+        <form action="">
+            <h3>subscribe for latest update</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="submit" value="subscribe" class="btn">
+        </form>
+    </section>
+
+      <!-------- arrivals section start  ----------->
+
+      <section class="arrivals" id="arrivals">
+            <div class="heading"><span>new arrivals</span></div>
+            <div class="swiper arrivals-slider">
+                <div class="swiper-wrapper">
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./images/new-1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>How to learn Arabic</h3>
+                            <div class="price">Rs 2000 <span> FRs 2300</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./images/book-2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Adam se Muhammad tak</h3>
+                            <div class="price"> Rs 1000 <span>Rs 1500</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./images/new-2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Master Guide Arbi</h3>
+                            <div class="price">Rs 2300 <span>RS 2500</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./images/new-3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Seerat Umar Farooq</h3>
+                            <div class="price">Rs 1400 <span>RS 1800</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./images/new-4.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Hazrat Abu Bakar Siddiq</h3>
+                            <div class="price">Rs 800 <span> Rs 1000</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper arrivals-slider">
+                <div class="swiper-wrapper">
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./images/book-3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>The History of Islam</h3>
+                            <div class="price">Rs 3000 <span> Rs 3200</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./images/book-7.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Jannat kay Pattey</h3>
+                            <div class="price"> Rs 2100<span> Rs 2400</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./images/book-8.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Namal</h3>
+                            <div class="price"> Rs 2100<span> Rs 2500</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./images/book-9.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Tafseer Quran</h3>
+                            <div class="price">RS 3000 <span> Rs 3200</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./images/book-10.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Tafseer Quran</h3>
+                            <div class="price"> Rs 2000 <span> Rs 2500</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+ 
+      </section>
+
+     <!-------- deal section start  ----------->
+
+     <section class="deal">
+        <div class="content">
+            <h3>deal of the day</h3>
+            <h1>upto 50% offers</h1>
+            <p>
+        
+"Unwrap the Magic of Words: Today's Deal, Tomorrow's Adventure!"
+            </p>
+            <a href="" class="btn">shop now</a>
+        </div>
+
+        <div class="image">
+            <img src="./images/deal.jpg" alt="">
+        </div>
+     </section>
+
+    <!-------- review section start  ----------->
+     <section class="reviews" id="reviews">
+        <h1 class="heading"><span>client's reviews</span></h1>
+
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">              
+
+                <div class="swiper-slide box">
+                    <img src="./images/pic1.jpg" alt="">
+                    <h3>Ahmed</h3>
+                    <p>
+                        "This library is a literary haven! With its vast collection and cozy atmosphere, I always find the perfect escape within its shelves. Knowledge meets comfort in every visit. A must for book lovers!"
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/pic2.jpg" alt="">
+                    <h3>Sara </h3>
+                    <p>
+                        "A treasure trove of wisdom! The library's diverse selection caters to every curiosity. From classic literature to the latest releases, I always discover something new. A sanctuary for the inquisitive mind."
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/pic3.jpg" alt="">
+                    <h3>Anas</h3>
+                    <p>
+                        "As a traveler, finding a library that feels like home is a rare gem. This one not only offers a serene reading space but also transports me to different worlds through its global collection. A bibliophile's dream destination."
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/pic4.jpg" alt="">
+                    <h3>Sana</h3>
+                    <p>
+                        "Incredible resource for students! The library's commitment to education is evident in its well-curated academic section. Quiet study spaces, helpful staff, and a plethora of references make it my go-to spot for research."
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/pic5.jpg" alt="">
+                    <h3>Razi</h3>
+                    <p>
+                        "Our family loves this library! From children's storytime to adult book clubs, it caters to all ages. It's not just a library; it's a community hub that fosters a love for reading and learning. Highly recommended for families!"
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/pic6.jpg" alt="">
+                    <h3>Hiba</h3>
+                    <p>
+                        "Modern and tech-savvy! This library seamlessly blends tradition with technology. The online catalog and e-book options make borrowing a breeze. The perfect space for those who appreciate the marriage of literature and innovation."
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     </section>
+
+    <!-------- blog section start  ----------->
+     <section class="blogs" id="blogs">
+        <div class="heading"><span>our blogs</span></div>
+
+        <div class="swiper blog-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./images/blog-1.jpg.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>"Kahaniyon Ki Dunia" (World of Stories)</h3>
+                        <p>
+                            Description: Immerse yourself in the enchanting realm of Urdu novels. From timeless classics to contemporary gems, this blog celebrates the beauty of Urdu literature, offering reviews, recommendations, and glimpses into the rich storytelling tradition.
+Blog Post: "Exploring the Legacy of Urdu Fiction: Must-Read Novels"
+                        </p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./images/blog-2.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>"Islamic Insights Library"</h3>
+                        <p>
+                            Journey through the pages of Islamic wisdom. Our blog delves into the diverse world of Islamic literature, offering reflections, book reviews, and discussions on spiritual growth, history, and contemporary Islamic thought.
+Blog Post: "A Guide to Essential Islamic Reading for Every Seeker"
+                        </p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./images/blog-3.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>"Kitabon Ka Safar" (Journey of Books)</h3>
+                        <p>
+                            Uncover the magic that lies within the pages of Urdu novels and Islamic books. This blog takes you on a literary voyage, featuring spotlights on influential authors, book recommendations, and the intersection of Urdu and Islamic literature.
+                            Blog Post: "The Art of Balancing: Themes in Urdu Novels and Islamic Teachings"
+                        </p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./images/blog-4.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>"Taleem-o-Tarbiyat Kutubkhana" (Education and Upbringing Library)</h3>
+                        <p>
+                            Explore the educational treasures housed in our library. From Islamic literature for children to thought-provoking Urdu novels for adults, this blog provides insights into fostering a love for learning within an Islamic context.
+                            Blog Post: "Nurturing Young Minds: The Best Islamic Books for Kids"
+                        </p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./images/blog-5.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>"Roshan Rah-e-Raah" (Illuminated Path)</h3>
+                        <p> Join us on a journey of enlightenment through Islamic literature. This blog shares inspiring stories, book reviews, and discussions on the spiritual guidance found in Urdu novels and Islamic books, paving the way for an illuminated path.
+                            Blog Post: "Finding Serenity: Reflections from Islamic Literature"
+                            
+                        </p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     </section>
+
+    <!-- footer section start -->
+    
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>our locations</h3>
+                <a href=""><i class="fas fa-map-marker-alt"></i>North Karachi</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Nazimabad</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>North Nazimabad</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Defence</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Surjani</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Clifton</a>
+            </div>
+        
+
+            <div class="box">
+                <h3>Return Policy</h3>
+                <a href="Home"><i class="fas fa-arrow-right"></i>Items must be returned<br> within 30 days of<br> payment</a>
+                <a href="Featured"><i class="fas fa-arrow-right"></i>Returned Items must <br> be in their original <br>condition and packaging</a>
+         
+            </div>
+               
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href=""><i class="fas fa-phone"></i>+123-356-546</a>
+                <a href=""><i class="fas fa-phone"></i>+123-356-546</a>
+                <a href=""><i class="fas fa-envelope"></i>bookhub@gmail.com</a>
+                
+            </div>
+        </div>         
+        <div class="share">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-square-pinterest"></i></a>
+        </div>
+    </section>
+    
+   
+          
+
+    <!---- swiper cdn link ---------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+     
+
+     <!------- customer script link --------->
+     <script src="./js/script.js"></script>
+    
+</body>
+</html>
